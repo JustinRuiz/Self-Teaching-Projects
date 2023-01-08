@@ -12,6 +12,7 @@ class Player(Turtle):
         self.setheading(90)
         self.goto(SPAWN)
 
+     #Functions for moving the player's avatar   
     def up(self):
         self.setheading(90)
         self.forward(10)
